@@ -16,5 +16,7 @@
 # deploy firebase application
     - ng build --prod
 ## install firebase command line tool
-    - 
+    - firebase login
+    - firebase init
+    - firebase deploy
 
