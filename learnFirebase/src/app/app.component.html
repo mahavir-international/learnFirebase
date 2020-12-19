@@ -1,0 +1,16 @@
+<body>
+  <h1> Courses Details </h1>
+<hr>
+<ul>
+  <li *ngFor="let course of courses">
+    <div style="background-color: aquamarine; font-style: normal;
+    border-radius: 1%; box-shadow: black; padding: 1%;">
+    <h2> Subject: {{course.title}}</h2>
+    Teacher Name : {{course.name}} <br> 
+    phone : {{course.phone}} <br>
+    Class Teacher : {{course.class}} <br>
+    age : {{course.age}} <br>
+  </div>
+  </li>
+</ul>
+</body>
