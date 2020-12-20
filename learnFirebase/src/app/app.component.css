@@ -2,3 +2,15 @@ body{
     background-color: bisque;
     padding: 1%;
 }
+a:hover {
+    background-color: yellow;
+  }
+
+.pill{
+    padding: 1%;
+    background: rgb(240, 101, 101) ;
+    border-radius: 2px;
+    border-color: aqua;
+    margin: auto;
+    font-size: medium;
+}
