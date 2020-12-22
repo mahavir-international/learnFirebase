@@ -1,5 +1,8 @@
 # Learn Angular
 
+# angualr + firestore 
+https://dev.to/thisdotmedia/realtime-app-with-angular-and-firestore-angularfire-2o90
+
 # initialize
 - ng new learnFirebase
 - cd learnFirebase
