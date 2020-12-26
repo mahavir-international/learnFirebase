@@ -1,0 +1,33 @@
+td{
+    /* padding: 2px;/ */
+    background-color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: inset;
+    /* display: flex; */
+}
+
+th{
+    margin: auto;
+    background-color: rgb(35, 75, 128);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: inset;
+    /* display:f; */
+}
+
+table {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    min-width: 500px;
+}
+th.mat-header-cell {
+    text-align: left;
+    max-width: 300px;
+}
+
+td.mat-cell {
+    border-color: blue;
+    padding: 2px;
+    margin: 2px;
+}
