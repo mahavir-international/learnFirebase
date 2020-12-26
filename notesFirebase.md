@@ -20,3 +20,7 @@
     - firebase init
     - firebase deploy
 
+## firebase add project
+ - firebase projects:list
+ - firebase use --add
+
