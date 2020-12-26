@@ -1,11 +1,6 @@
 
 name: Auto build and deploy website
 
-author: 'pankaj pundir'
-
-# action description
-description: 'Setup CI/CD pipeline'
-
 'on':
   push:
     branches:
@@ -23,7 +18,6 @@ jobs:
   deploy:
     name: Deploy to firebase
     runs-on: ubuntu-latest
-    description: it will deploy to the dedicated website
     steps:
       - uses: w9jds/firebase-action@master
         with:
