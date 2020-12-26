@@ -8,9 +8,27 @@ a:hover {
 
 .pill{
     padding: 1%;
-    background: rgb(240, 101, 101) ;
+    background: rgb(30, 153, 106) ;
     border-radius: 2px;
     border-color: aqua;
     margin: auto;
     font-size: medium;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(30, 153, 106);
+    text-shadow: 2px 3px 5px gray;
+}
+
+footer{
+    position: relative;
+    margin-bottom: 0px;
+    text-align: center;
+    border: 3px solid gray;
+    padding: auto;
+    background-color: black;
+    color: azure;
+    margin: auto;
 }

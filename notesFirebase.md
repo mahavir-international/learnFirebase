@@ -20,7 +20,7 @@
     - firebase init
     - firebase deploy
 
-## firebase add project
+## firebase add project - completes CI/CD pipeline
  - firebase projects:list
  - firebase use --add
 
